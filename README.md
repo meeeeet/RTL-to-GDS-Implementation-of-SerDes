@@ -1,5 +1,4 @@
 # RTL to GDS Implementation of 16:1 Serializer
-## Abstract:
 This project showcases the design and implementation of a 16:1 on-chip digital serializer using advanced 7nm FinFET 
 technology. The serializer is essential for high-performance System-on-Chip (SoC) designs, enabling efficient and reliable data 
 transmission. By leveraging OpenROAD, an automated and open-source RTL to GDS design tool, the serializer achieves 
@@ -8,17 +7,17 @@ Gbps, and occupying only 14% of the chip area. This demonstrates the efficacy of
 providing unmatched performance and integration in on-chip digital serializer designs. 
 
 ## Design process
--  RTL Design and Simulation
--  RTL Synthesis
--  Floorplanning
--  Placement
--  Clock Tree Synthesis (CTS)
--  Routing
--  Final GDS Layout
+- [RTL Design and Simulation](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#rtl-design-and-simulation)
+- [RTL Synthesis](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/results/1_synth.v)
+- [Floorplanning](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#floorplanning)
+- [Placement](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#placement)
+- [Clock Tree Synthesis (CTS)](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#clock-tree-synthesis-cts)
+- [Routing](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#routing)
+- [Final GDS Layout](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#final-gds-layout)
 ## Results and Analysis
-- Power Analysis
-- Placement Density Distribution
-- Routing Congestion Analysis
+- [Power Analysis](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#power-analysis)
+- [Placement Density Distribution](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#placement-density-distribution)
+- [Routing Congestion Analysis](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/README.md#routing-congestion-analysis)
 
 
 ## RTL Design and Simulation
@@ -30,6 +29,9 @@ height="400">
 ### Simulation
 
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/1a344f2e-0c1d-4346-be26-ee0890c009e5">
+
+## RTL Synthesis
+- Synthesized verilog file: (1_synth.v)[https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/results/1_synth.v]
 
 ## Floorplanning
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/8436f757-fda0-4fad-ae43-f61eae10384b"
@@ -56,8 +58,8 @@ height="400">
     width="650"
     height="600">
 
-
-## Power Analysis
+## Results and Analysis
+### Power Analysis
 
 ![power_result](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/363aad99-662e-4709-9e2a-79ff01725997)
 
@@ -65,12 +67,12 @@ height="400">
     width="650"
     height="600">
 
-## Placement Density Distribution
+### Placement Density Distribution
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/9fc08f89-2d20-452b-8258-56cad3c8c794"
     width="650"
     height="600">
 
-## Routing Congestion Analysis
+### Routing Congestion Analysis
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/014a60d2-0451-407e-a6db-5f46ba89367e"
     width="650"
     height="600">
