@@ -14,5 +14,21 @@ providing unmatched performance and integration in on-chip digital serializer de
 -  Placement
 -  Clock Tree Synthesis (CTS)
 -  Routing
--  Final GDS Layout 
-## RTL Design and Simulation
+-  Final GDS Layout
+## Results and Analysis
+- Power Analysis
+- Placement Density Distribution
+- Routing Congestion Analysis
+
+
+### RTL Design and Simulation
+### RTL Synthesis
+### Floorplanning
+### Placement
+### Clock Tree Synthesis (CTS)
+### Routing
+### Final GDS Layout
+### Results and Analysis
+### Power Analysis
+### Placement Density Distribution
+### Routing Congestion Analysis
