@@ -31,7 +31,6 @@ height="400">
 
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/1a344f2e-0c1d-4346-be26-ee0890c009e5">
 
-## RTL Synthesis
 ## Floorplanning
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/8436f757-fda0-4fad-ae43-f61eae10384b"
     width="650"
