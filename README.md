@@ -21,14 +21,38 @@ providing unmatched performance and integration in on-chip digital serializer de
 - Routing Congestion Analysis
 
 
-### RTL Design and Simulation
-### RTL Synthesis
-### Floorplanning
-### Placement
-### Clock Tree Synthesis (CTS)
-### Routing
-### Final GDS Layout
-### Results and Analysis
-### Power Analysis
-### Placement Density Distribution
-### Routing Congestion Analysis
+## RTL Design and Simulation
+### Logic Design
+![logic_dia (1)](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/2d623eea-788c-4146-b7db-4dc4de0f56cb)
+
+### Simulation
+![Waveform1](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/1a344f2e-0c1d-4346-be26-ee0890c009e5)
+
+## RTL Synthesis
+## Floorplanning
+![floorplan](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/8436f757-fda0-4fad-ae43-f61eae10384b)
+
+## Placement
+![placement](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/ec1749d5-de48-4a2a-982c-69c5da49463f)
+
+## Clock Tree Synthesis (CTS)
+![final_clocks](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/b706766d-91d4-49c6-842e-d9433a61d8a2)
+
+## Routing
+![route](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/f354f439-4a76-4d16-b619-1f78f91556d5)
+
+## Final GDS Layout
+![final_gds](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/c75e7ad2-2436-4f6b-bf6a-3300b4e66c22)
+
+
+## Power Analysis
+
+![power_result](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/363aad99-662e-4709-9e2a-79ff01725997)
+
+![power_dens](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/20beb1c5-051b-4774-92e3-c278ba968974)
+
+## Placement Density Distribution
+![place_dens](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/9fc08f89-2d20-452b-8258-56cad3c8c794)
+
+## Routing Congestion Analysis
+![route_dens](https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/014a60d2-0451-407e-a6db-5f46ba89367e)
