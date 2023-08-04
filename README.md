@@ -23,7 +23,6 @@ providing unmatched performance and integration in on-chip digital serializer de
 
 ## RTL Design and Simulation
 ### Logic Design
-### Logic Design
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/assets/76646671/2d623eea-788c-4146-b7db-4dc4de0f56cb"
 width="550"
 height="400">
