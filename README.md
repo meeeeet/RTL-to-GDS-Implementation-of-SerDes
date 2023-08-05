@@ -23,8 +23,8 @@ providing unmatched performance and integration in on-chip digital serializer de
 ## RTL Design and Simulation
 ### Logic Design
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/src/img/logic_dia%20(1).jpg"
-width="550"
-height="400">
+width="400"
+height="320">
 
 ### Simulation
 
@@ -36,7 +36,7 @@ height="400">
 ## Floorplanning
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/src/img/floorplan.png"
     width="500"
-    height="450">
+    height="400">
 
 ## Placement
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/src/img/placement.png"
