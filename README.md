@@ -14,7 +14,7 @@ This project presents the design and implementation of a 32-bit SerDes (Serializ
 
 
 ## RTL Simulation
-<img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/img/waveform.png">
+<img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/img/rtl_waveform.png">
 
 ## Final Layout
 
