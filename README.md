@@ -34,3 +34,4 @@ This project presents the design and implementation of a 32-bit SerDes (Serializ
 
 ### Deserializer
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/img/des_analysis.png">
+*Unit of fmax is in MHz
