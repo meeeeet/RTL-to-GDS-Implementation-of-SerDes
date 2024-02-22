@@ -12,18 +12,11 @@ This project presents the design and implementation of a high-speed 8-bit Serial
 
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/img/serdes_blk.png">
 
-## OpenROAD tutorial
-### Prerequisites
-Before getting started, ensure you have the following prerequisites installed on your system:
-- [OpenROAD-flow-scripts](https://github.com/The-OpenROAD-Project/OpenROAD)
+## Results
 
-### Configuration
+### Static Timing Analysis
 
-### Results
-
-#### Static Timing Analysis
-
-##### Synopsys Design Constraint(SDC) file:
+#### Synopsys Design Constraint(SDC) file:
 
 ```
 set sdc_version 2.0
@@ -41,7 +34,7 @@ create_clock -name $clk_name -period $clk_period $clk_port
 set non_clock_inputs [lsearch -inline -all -not -exact [all_inputs] $clk_port]
 
 ```
-##### Maximum timing analysis (Setup time violation)
+#### Maximum timing analysis (Setup time violation)
 ```
 Startpoint: _261_ (falling edge-triggered flip-flop clocked by clk')
 Endpoint: _260_ (falling edge-triggered flip-flop clocked by clk')
@@ -72,7 +65,7 @@ Path Type: max
           42.45   slack (MET)
 ```
 
-##### Minimum timing analysis (Hold time violation)
+#### Minimum timing analysis (Hold time violation)
 ```
 Startpoint: _272_ (falling edge-triggered flip-flop clocked by clk')
 Endpoint: _272_ (falling edge-triggered flip-flop clocked by clk')
@@ -102,13 +95,13 @@ Path Type: min
 ---------------------------------------------------------
           33.49   slack (MET)
 ```
-##### Maximum operating frequency
+#### Maximum operating frequency
 ```
 clk period_min = 57.55 ps 
 fmax = 17375.04 MHz (17.37 GHz)
 ```
 
-#### Power analysis
+### Power analysis
 ```
 Group                  Internal  Switching    Leakage      Total
                           Power      Power      Power      Power (Watts)
@@ -124,6 +117,6 @@ Total                  6.12e-04   2.08e-04   1.41e-06   8.21e-04 100.0%
 
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/img/heatmap_power.png">
 
-#### Final layout (GDSII file)
+### Final layout (GDSII file)
 
 <img src="https://github.com/meeeeet/RTL-to-GDS-Implementation-of-16-1-Serializer/blob/main/img/final_gds.png">
