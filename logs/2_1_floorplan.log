@@ -1,0 +1,186 @@
+OpenROAD v2.0-7374-ge18c0d570 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13156, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13189, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13222, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13255, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13288, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13321, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13354, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 14748, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 14781, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 14814, timing group from output port.
+[INFO ODB-0222] Reading LEF file: ./platforms/asap7/lef/asap7_tech_1x_201209.lef
+[INFO ODB-0223]     Created 24 technology layers
+[INFO ODB-0224]     Created 9 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/asap7/lef/asap7_tech_1x_201209.lef
+[INFO ODB-0222] Reading LEF file: ./platforms/asap7/lef/asap7sc7p5t_28_SL_1x_220121a.lef
+[INFO ODB-0225]     Created 212 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/asap7/lef/asap7sc7p5t_28_SL_1x_220121a.lef
+[WARNING STA-0319] time scale 1e-09 does not match library scale 1e-12.
+[WARNING STA-0319] capacitance scale 1e-12 does not match library scale 1e-15.
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+Warning: There are 11 input ports missing set_input_delay.
+Warning: There is 1 output port missing set_output_delay.
+Warning: There are 8 unclocked register/latch pins.
+Warning: There are 9 unconstrained endpoints.
+number instances in verilog is 141
+[WARNING IFP-0028] Core area lower left (1.000, 1.000) snapped to (1.026, 1.080).
+[INFO IFP-0001] Added 28 rows of 142 site asap7sc7p5t with height 1.
+[INFO RSZ-0026] Removed 10 buffers.
+Default units for flow
+ time 1ps
+ capacitance 1fF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1pW
+ distance 1um
+
+==========================================================================
+floorplan final check_setup
+--------------------------------------------------------------------------
+Warning: There are 11 input ports missing set_input_delay.
+Warning: There is 1 output port missing set_output_delay.
+Warning: There are 8 unclocked register/latch pins.
+Warning: There are 9 unconstrained endpoints.
+
+==========================================================================
+floorplan final report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+floorplan final report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+floorplan final report_worst_slack
+--------------------------------------------------------------------------
+worst slack 43.04
+
+==========================================================================
+floorplan final report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: _254_ (falling edge-triggered flip-flop clocked by clk')
+Endpoint: _272_ (falling edge-triggered flip-flop clocked by clk')
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk' (fall edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 v _254_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                 10.21   22.76   22.76 v _254_/QN (DFFLQNx1_ASAP7_75t_SL)
+     1    0.54                           _027_ (net)
+                 10.21    0.00   22.76 v _149_/C (AND3x1_ASAP7_75t_SL)
+                  5.62    9.87   32.62 v _149_/Y (AND3x1_ASAP7_75t_SL)
+     1    0.92                           _122_ (net)
+                  5.62    0.00   32.62 v _152_/A (NOR2x1_ASAP7_75t_SL)
+                  6.41    4.66   37.29 ^ _152_/Y (NOR2x1_ASAP7_75t_SL)
+     1    0.63                           _047_ (net)
+                  6.41    0.00   37.29 ^ _272_/D (DFFLQNx1_ASAP7_75t_SL)
+                                 37.29   data arrival time
+
+                  0.00    0.00    0.00   clock clk' (fall edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 v _272_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                          6.76    6.76   library hold time
+                                  6.76   data required time
+-----------------------------------------------------------------------------
+                                  6.76   data required time
+                                -37.29   data arrival time
+-----------------------------------------------------------------------------
+                                 30.53   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: _270_ (falling edge-triggered flip-flop clocked by clk')
+Endpoint: _256_ (falling edge-triggered flip-flop clocked by clk')
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk' (fall edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 v _270_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                 19.09   28.04   28.04 ^ _270_/QN (DFFLQNx1_ASAP7_75t_SL)
+     2    2.37                           _011_ (net)
+                 19.09    0.00   28.04 ^ _161_/B (NAND2x1_ASAP7_75t_SL)
+                  8.18    3.50   31.54 v _161_/Y (NAND2x1_ASAP7_75t_SL)
+     1    0.47                           _131_ (net)
+                  8.18    0.00   31.54 v _162_/B (OA211x2_ASAP7_75t_SL)
+                 10.36   19.23   50.76 v _162_/Y (OA211x2_ASAP7_75t_SL)
+     1    0.69                           _031_ (net)
+                 10.36    0.00   50.76 v _256_/D (DFFLQNx1_ASAP7_75t_SL)
+                                 50.76   data arrival time
+
+                  0.00  100.00  100.00   clock clk' (fall edge)
+                          0.00  100.00   clock network delay (ideal)
+                          0.00  100.00   clock reconvergence pessimism
+                                100.00 v _256_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                         -6.20   93.80   library setup time
+                                 93.80   data required time
+-----------------------------------------------------------------------------
+                                 93.80   data required time
+                                -50.76   data arrival time
+-----------------------------------------------------------------------------
+                                 43.04   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _270_ (falling edge-triggered flip-flop clocked by clk')
+Endpoint: _256_ (falling edge-triggered flip-flop clocked by clk')
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk' (fall edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 v _270_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                 19.09   28.04   28.04 ^ _270_/QN (DFFLQNx1_ASAP7_75t_SL)
+     2    2.37                           _011_ (net)
+                 19.09    0.00   28.04 ^ _161_/B (NAND2x1_ASAP7_75t_SL)
+                  8.18    3.50   31.54 v _161_/Y (NAND2x1_ASAP7_75t_SL)
+     1    0.47                           _131_ (net)
+                  8.18    0.00   31.54 v _162_/B (OA211x2_ASAP7_75t_SL)
+                 10.36   19.23   50.76 v _162_/Y (OA211x2_ASAP7_75t_SL)
+     1    0.69                           _031_ (net)
+                 10.36    0.00   50.76 v _256_/D (DFFLQNx1_ASAP7_75t_SL)
+                                 50.76   data arrival time
+
+                  0.00  100.00  100.00   clock clk' (fall edge)
+                          0.00  100.00   clock network delay (ideal)
+                          0.00  100.00   clock reconvergence pessimism
+                                100.00 v _256_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                         -6.20   93.80   library setup time
+                                 93.80   data required time
+-----------------------------------------------------------------------------
+                                 93.80   data required time
+                                -50.76   data arrival time
+-----------------------------------------------------------------------------
+                                 43.04   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 17 u^2 29% utilization.
+
+Elapsed time: 0:01.49[h:]min:sec. CPU time: user 1.37 sys 0.11 (99%). Peak memory: 185900KB.

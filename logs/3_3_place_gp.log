@@ -1,0 +1,258 @@
+OpenROAD v2.0-7374-ge18c0d570 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13156, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13189, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13222, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13255, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13288, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13321, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 13354, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 14748, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 14781, timing group from output port.
+[WARNING STA-0164] ./platforms/asap7/lib/asap7sc7p5t_SIMPLE_SLVT_FF_nldm_211120.lib.gz line 14814, timing group from output port.
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 54 270
+[INFO GPL-0004] CoreAreaLxLy: 1026 1080
+[INFO GPL-0005] CoreAreaUxUy: 8694 8640
+[INFO GPL-0006] NumInstances: 187
+[INFO GPL-0007] NumPlaceInstances: 131
+[INFO GPL-0008] NumFixedInstances: 56
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 143
+[INFO GPL-0011] NumPins: 460
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 9700 9700
+[INFO GPL-0014] CoreAreaLxLy: 1026 1080
+[INFO GPL-0015] CoreAreaUxUy: 8694 8640
+[INFO GPL-0016] CoreArea: 57970080
+[INFO GPL-0017] NonPlaceInstsArea: 1632960
+[INFO GPL-0018] PlaceInstsArea: 24261120
+[INFO GPL-0019] Util(%): 43.06
+[INFO GPL-0020] StdInstsArea: 24261120
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG residual: 0.00000011 HPWL: 316244
+[InitialPlace]  Iter: 2 CG residual: 0.00000012 HPWL: 213628
+[InitialPlace]  Iter: 3 CG residual: 0.00000009 HPWL: 213177
+[InitialPlace]  Iter: 4 CG residual: 0.00000011 HPWL: 210339
+[InitialPlace]  Iter: 5 CG residual: 0.00000010 HPWL: 210825
+[INFO GPL-0031] FillerInit: NumGCells: 184
+[INFO GPL-0032] FillerInit: NumGNets: 143
+[INFO GPL-0033] FillerInit: NumGPins: 460
+[INFO GPL-0023] TargetDensity: 0.60
+[INFO GPL-0024] AveragePlaceInstArea: 185199
+[INFO GPL-0025] IdealBinArea: 308665
+[INFO GPL-0026] IdealBinCnt: 187
+[INFO GPL-0027] TotalBinArea: 57970080
+[INFO GPL-0028] BinCnt: 8 8
+[INFO GPL-0029] BinSize: 959 945
+[INFO GPL-0030] NumBins: 64
+[NesterovSolve] Iter: 1 overflow: 0.69775 HPWL: 138568
+[INFO GPL-0100] worst slack 4.22e-11
+[INFO GPL-0103] Weighted 16 nets.
+[NesterovSolve] Iter: 10 overflow: 0.726842 HPWL: 136123
+[NesterovSolve] Iter: 20 overflow: 0.737463 HPWL: 131507
+[NesterovSolve] Iter: 30 overflow: 0.750256 HPWL: 130993
+[NesterovSolve] Iter: 40 overflow: 0.718497 HPWL: 131388
+[NesterovSolve] Iter: 50 overflow: 0.678063 HPWL: 133550
+[NesterovSolve] Iter: 60 overflow: 0.662702 HPWL: 134865
+[NesterovSolve] Iter: 70 overflow: 0.67006 HPWL: 134381
+[NesterovSolve] Iter: 80 overflow: 0.674353 HPWL: 133308
+[NesterovSolve] Iter: 90 overflow: 0.67929 HPWL: 132094
+[NesterovSolve] Iter: 100 overflow: 0.67564 HPWL: 130033
+[NesterovSolve] Iter: 110 overflow: 0.677247 HPWL: 127492
+[NesterovSolve] Iter: 120 overflow: 0.673424 HPWL: 125070
+[NesterovSolve] Iter: 130 overflow: 0.670549 HPWL: 123253
+[NesterovSolve] Iter: 140 overflow: 0.663039 HPWL: 122528
+[NesterovSolve] Iter: 150 overflow: 0.665737 HPWL: 123375
+[NesterovSolve] Iter: 160 overflow: 0.662181 HPWL: 126585
+[NesterovSolve] Iter: 170 overflow: 0.637006 HPWL: 133074
+[INFO GPL-0100] worst slack 4.23e-11
+[INFO GPL-0103] Weighted 16 nets.
+[NesterovSolve] Iter: 180 overflow: 0.610012 HPWL: 143014
+[NesterovSolve] Iter: 190 overflow: 0.600835 HPWL: 156083
+[NesterovSolve] Snapshot saved at iter = 190
+[NesterovSolve] Iter: 200 overflow: 0.556974 HPWL: 171011
+[NesterovSolve] Iter: 210 overflow: 0.499838 HPWL: 185640
+[INFO GPL-0100] worst slack 4.17e-11
+[INFO GPL-0103] Weighted 16 nets.
+[NesterovSolve] Iter: 220 overflow: 0.478367 HPWL: 197343
+[NesterovSolve] Iter: 230 overflow: 0.410188 HPWL: 187803
+[NesterovSolve] Iter: 240 overflow: 0.353519 HPWL: 202071
+[NesterovSolve] Iter: 250 overflow: 0.324164 HPWL: 206423
+[INFO GPL-0100] worst slack 4.2e-11
+[INFO GPL-0103] Weighted 16 nets.
+[NesterovSolve] Iter: 260 overflow: 0.276459 HPWL: 217365
+[NesterovSolve] Iter: 270 overflow: 0.239945 HPWL: 218498
+[INFO GPL-0100] worst slack 4.2e-11
+[INFO GPL-0103] Weighted 16 nets.
+[INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
+[INFO GPL-0036] TileLxLy: 0 0
+[INFO GPL-0037] TileSize: 540 540
+[INFO GPL-0038] TileCnt: 17 17
+[INFO GPL-0039] numRoutingLayers: 10
+[INFO GPL-0040] NumTiles: 289
+[INFO GPL-0063] TotalRouteOverflowH2: 0.0
+[INFO GPL-0064] TotalRouteOverflowV2: 0.0
+[INFO GPL-0065] OverflowTileCnt2: 0
+[INFO GPL-0066] 0.5%RC: 1.0
+[INFO GPL-0067] 1.0%RC: 1.0
+[INFO GPL-0068] 2.0%RC: 0.9855769239366055
+[INFO GPL-0069] 5.0%RC: 0.9010220613235083
+[INFO GPL-0070] 0.5rcK: 1.0
+[INFO GPL-0071] 1.0rcK: 1.0
+[INFO GPL-0072] 2.0rcK: 0.0
+[INFO GPL-0073] 5.0rcK: 0.0
+[INFO GPL-0074] FinalRC: 1.0
+[NesterovSolve] Iter: 280 overflow: 0.188393 HPWL: 222744
+[NesterovSolve] Iter: 290 overflow: 0.15085 HPWL: 225590
+[INFO GPL-0100] worst slack 4.22e-11
+[INFO GPL-0103] Weighted 16 nets.
+[NesterovSolve] Iter: 300 overflow: 0.152253 HPWL: 238244
+[NesterovSolve] Iter: 310 overflow: 0.144384 HPWL: 260280
+[NesterovSolve] Iter: 320 overflow: 0.103749 HPWL: 264189
+[NesterovSolve] Finished with Overflow: 0.098788
+
+==========================================================================
+global place check_setup
+--------------------------------------------------------------------------
+Warning: There are 11 input ports missing set_input_delay.
+Warning: There is 1 output port missing set_output_delay.
+Warning: There are 8 unclocked register/latch pins.
+Warning: There are 9 unconstrained endpoints.
+
+==========================================================================
+global place report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+global place report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+global place report_worst_slack
+--------------------------------------------------------------------------
+worst slack 41.61
+
+==========================================================================
+global place report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: _254_ (falling edge-triggered flip-flop clocked by clk')
+Endpoint: _272_ (falling edge-triggered flip-flop clocked by clk')
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk' (fall edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 v _254_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                 11.48   23.90   23.90 v _254_/QN (DFFLQNx1_ASAP7_75t_SL)
+     1    0.89                           _027_ (net)
+                 11.48    0.03   23.93 v _149_/C (AND3x1_ASAP7_75t_SL)
+                  7.07   10.69   34.63 v _149_/Y (AND3x1_ASAP7_75t_SL)
+     1    1.21                           _122_ (net)
+                  7.07    0.01   34.64 v _152_/A (NOR2x1_ASAP7_75t_SL)
+                  7.78    5.35   39.99 ^ _152_/Y (NOR2x1_ASAP7_75t_SL)
+     1    0.93                           _047_ (net)
+                  7.78    0.04   40.03 ^ _272_/D (DFFLQNx1_ASAP7_75t_SL)
+                                 40.03   data arrival time
+
+                  0.00    0.00    0.00   clock clk' (fall edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 v _272_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                          6.82    6.82   library hold time
+                                  6.82   data required time
+-----------------------------------------------------------------------------
+                                  6.82   data required time
+                                -40.03   data arrival time
+-----------------------------------------------------------------------------
+                                 33.21   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: _270_ (falling edge-triggered flip-flop clocked by clk')
+Endpoint: _256_ (falling edge-triggered flip-flop clocked by clk')
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk' (fall edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 v _270_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                 20.51   28.87   28.87 ^ _270_/QN (DFFLQNx1_ASAP7_75t_SL)
+     2    2.70                           _011_ (net)
+                 20.51    0.15   29.03 ^ _161_/B (NAND2x1_ASAP7_75t_SL)
+                  8.37    3.54   32.56 v _161_/Y (NAND2x1_ASAP7_75t_SL)
+     1    0.49                           _131_ (net)
+                  8.37    0.00   32.56 v _162_/B (OA211x2_ASAP7_75t_SL)
+                 10.63   19.57   52.14 v _162_/Y (OA211x2_ASAP7_75t_SL)
+     1    0.90                           _031_ (net)
+                 10.63    0.03   52.17 v _256_/D (DFFLQNx1_ASAP7_75t_SL)
+                                 52.17   data arrival time
+
+                  0.00  100.00  100.00   clock clk' (fall edge)
+                          0.00  100.00   clock network delay (ideal)
+                          0.00  100.00   clock reconvergence pessimism
+                                100.00 v _256_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                         -6.22   93.78   library setup time
+                                 93.78   data required time
+-----------------------------------------------------------------------------
+                                 93.78   data required time
+                                -52.17   data arrival time
+-----------------------------------------------------------------------------
+                                 41.61   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _270_ (falling edge-triggered flip-flop clocked by clk')
+Endpoint: _256_ (falling edge-triggered flip-flop clocked by clk')
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk' (fall edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 v _270_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                 20.51   28.87   28.87 ^ _270_/QN (DFFLQNx1_ASAP7_75t_SL)
+     2    2.70                           _011_ (net)
+                 20.51    0.15   29.03 ^ _161_/B (NAND2x1_ASAP7_75t_SL)
+                  8.37    3.54   32.56 v _161_/Y (NAND2x1_ASAP7_75t_SL)
+     1    0.49                           _131_ (net)
+                  8.37    0.00   32.56 v _162_/B (OA211x2_ASAP7_75t_SL)
+                 10.63   19.57   52.14 v _162_/Y (OA211x2_ASAP7_75t_SL)
+     1    0.90                           _031_ (net)
+                 10.63    0.03   52.17 v _256_/D (DFFLQNx1_ASAP7_75t_SL)
+                                 52.17   data arrival time
+
+                  0.00  100.00  100.00   clock clk' (fall edge)
+                          0.00  100.00   clock network delay (ideal)
+                          0.00  100.00   clock reconvergence pessimism
+                                100.00 v _256_/CLK (DFFLQNx1_ASAP7_75t_SL)
+                         -6.22   93.78   library setup time
+                                 93.78   data required time
+-----------------------------------------------------------------------------
+                                 93.78   data required time
+                                -52.17   data arrival time
+-----------------------------------------------------------------------------
+                                 41.61   slack (MET)
+
+
+
+==========================================================================
+global place report_design_area
+--------------------------------------------------------------------------
+Design area 18 u^2 31% utilization.
+
+Elapsed time: 0:01.82[h:]min:sec. CPU time: user 1.62 sys 0.18 (99%). Peak memory: 263236KB.

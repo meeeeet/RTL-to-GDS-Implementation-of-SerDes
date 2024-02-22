@@ -1,0 +1,15 @@
+{
+	"globalplace__timing__setup__tns": 0,
+	"globalplace__timing__setup__ws": 41.6068,
+	"globalplace__design__io": 13,
+	"globalplace__design__die__area": 94.09,
+	"globalplace__design__core__area": 57.9701,
+	"globalplace__design__instance__count": 187,
+	"globalplace__design__instance__area": 18.2542,
+	"globalplace__design__instance__count__stdcell": 187,
+	"globalplace__design__instance__area__stdcell": 18.2542,
+	"globalplace__design__instance__count__macros": 0,
+	"globalplace__design__instance__area__macros": 0,
+	"globalplace__design__instance__utilization": 0.314889,
+	"globalplace__design__instance__utilization__stdcell": 0.314889
+}
